@@ -24,6 +24,11 @@
         <link type="text/css" rel="stylesheet" href="css/responsive.css"/>
         <link type="text/css" rel="stylesheet" href="css/timeline.css"/>
         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/content.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="js/modernizr.custom.js"></script>
+
 
         <!--[if lt IE 9]>
                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -48,10 +53,11 @@
                 <ul class="right montserrat-font">
                 	<li><a href="#about">ABOUT</a></li>
                     <li><a href="#speakers">SPEAKERS</a></li>
+                    <li><a href="#watsi">WATSI</a></li>
                     <li><a href="#portfolio">AGENDA</a></li>                    
                     <li><a href="#team">TEAM</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#" style="color:#4abd92;">REGISTER</a></li>
+                    <li><a href="#register" style="color:#4abd92;">REGISTER</a></li>
                 </ul>
 				<div class="clear"></div>
             </div>		
@@ -69,7 +75,7 @@
 		  <p class="info top-30">Saturday, July 26th | One-day Conference | San Jose, California</p>		   				  
                 
            <div class="top-150">
-              <a href="#contact" class="button green slow-scroll">Register Today</a>
+              <a href="#register" class="button green slow-scroll">Register Today</a>
            </div>
            
 				</center>
@@ -156,16 +162,33 @@
 				
             <div class="one_half">
             <img src="images/pat-gelsinger.jpg">
-			<h1 class="single-blog-title montserrat-font top-20">PAT GELSINGER</h1>
+			<div class="morph-button morph-button-overlay morph-button-fixed">
+                    <button type="button">BIO</button>
+                    <div class="morph-content">
+                        <div>
+                            <div class="content-style-overlay">
+                                <span class="icon icon-close">Close the overlay</span>
+                                <h2>Pat Gelsinger</h2>
+                                <p>Pat was named to become CEO of VMware Sept 2012. VMware is the worldwide leader in virtualization and cloud computing technologies with 2012 revenues of $4.5B. VMware is known for their radical innovations in virtualization software that have created enormous efficiency for data centers and is a critical foundation for all cloud services. Going forward VMware is leading the transformation of the Software Defined Data Center’s, Hybrid Cloud computing and PC and Mobile device computing. </p>
+                                <p>Linda and Pat have been married 31 years, have four children, two are married and two grandchild. Pat serves as the chair for the William Jessup University Board of Trustees. Pat is the author of “Balancing Family, Faith and Work” published by Life Journey 2003, an imprint of Cook Communications Ministries and “The Juggling Act” in 2008 by Cook Communications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><h1 class="single-blog-title montserrat-font top-20">PAT GELSINGER</h1>
 			<ul class="date-author-likes-holder bottom-20"><li class="date">CEO VMware</li></ul>
-			Pat was named to become CEO of VMware Sept 2012. VMware is the worldwide leader in virtualization and cloud computing technologies with 2012 revenues of $4.5B. <a href="pat.html">Learn More</a>
+			Pat was named to become CEO of VMware Sept 2012. VMware is the worldwide leader in virtualization and cloud computing technologies with 2012 revenues of $4.5B.
+
+
+
+
+
 			</div>
 			<div class="one_half last">
 			<img src="images/kevin-compton.jpg">
 			<h1 class="single-blog-title montserrat-font top-20">KEVIN COMPTON</h1>
 			<ul class="date-author-likes-holder bottom-20"><li class="date">Kleiner Perkins Caufield & Byers</li></ul>
-			Pat was named to become CEO of VMware Sept 2012. VMware is the worldwide leader in virtualization and cloud computing technologies with 2012 revenues of $4.5B. <a href="pat.html">Learn More</a>
-			</div>
+			Pat was named to become CEO of VMware Sept 2012. VMware is the worldwide leader in virtualization and cloud computing technologies with 2012 revenues of $4.5B. <a href="pat.html">Learn More</a> 
+                </div>
 			<div class="clear"></div>
 			
 			<div class="one_half">
@@ -224,7 +247,7 @@
 			</div>
 			
 			<div class="top-60">
-            <center><a href="#contact" class="button green slow-scroll">Register Today</a></center>
+            <center><a href="#register" class="button green slow-scroll">Register Today</a></center>
            </div>
 			<div class="clear"></div>	
 			
@@ -235,6 +258,32 @@
             <div class="clear"></div>	
         </div>
        
+ <!--WATSI-->
+        <div id="watsi" class="clear about section block">
+        <div class="block content-960 center-relative"> 
+            <h2 class="section-title montserrat-font" style="color:white;">WATSI</h2>
+            <div class="title-separator"></div>                     
+                <p class="info bottom-20" style="color:white;">ELEO 2014 will donate all proceeds to Watsi patients</p>       
+                
+                <div class="one_half" style="color:white;">
+                Watsi is a global crowdfunding platform for healthcare that enables anyone to donate as little as $5 to directly fund life-changing medical care for people in need. 100% of every donation funds medical care and they are dedicated to complete transparency. 
+                <div class="top-20">
+                    <a href="http://watsi.org" target="_blank" class="button green slow-scroll">watsi.org</a>
+                </div>               
+            </div>
+                
+
+<div class="one_half last bottom-100">
+<div class="vimeo">  
+<iframe src="http://player.vimeo.com/video/70296287?title=0&amp;portrait=0&amp;badge=0&amp;autoplay=0"></iframe>        
+</div>
+</div>
+
+                <div class="clear"></div>
+                  
+                </div>                              
+                </div>      
+
 
         <!--The Flow-->
         <div id="portfolio" class="clear portfolio section block">
@@ -336,48 +385,6 @@
     </li>
 </ul>
 
-<!-- <ul class="cbp_tmtimeline">
-    <li>
-        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>02:00</span></time>
-        <div class="cbp_tmicon cbp_tmicon-phone"></div>
-        <div class="cbp_tmlabel">
-            <h2>THE DNA OF A LEADER</h2>
-            <p>Winter purslane…</p>
-        </div>
-    </li>
-    <li>
-        <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>02:15</span></time>
-        <div class="cbp_tmicon cbp_tmicon-screen"></div>
-        <div class="cbp_tmlabel">
-            <h2>Greens radish arugula</h2>
-            <p>Caulie dandelion maize…</p>
-        </div>
-    </li>
-    <li>
-        <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>02:45</span></time>
-        <div class="cbp_tmicon cbp_tmicon-mail"></div>
-        <div class="cbp_tmlabel">
-            <h2>Sprout garlic kohlrabi</h2>
-            <p>Parsnip lotus root…</p>
-        </div>
-    </li>
-    <li>
-        <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>03:05</span></time>
-        <div class="cbp_tmicon cbp_tmicon-phone"></div>
-        <div class="cbp_tmlabel">
-            <h2>Watercress ricebean</h2>
-            <p>Peanut gourd nori…</p>
-        </div>
-    </li>
-    <li>
-        <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>3:45</span></time>
-        <div class="cbp_tmicon cbp_tmicon-earth"></div>
-        <div class="cbp_tmlabel">
-            <h2>Courgette daikon</h2>
-            <p>Parsley amaranth tigernut…</p>
-        </div>
-    </li>
-</ul>-->
 			 
 			 
 			 
@@ -386,70 +393,21 @@
             <div class="clear"></div>
         </div>            
 
-	 <!--About-->
-        <div id="team" class="clear about section block">
+	 <!--REGISTER-->
+        <div id="register" class="clear about section block">
 		<div class="block content-960 center-relative">	
-            <h2 class="section-title montserrat-font">THE CREW</h2>
+            <h2 class="section-title montserrat-font">BUY</br>TICKETS</h2>
 			<div class="title-separator"></div>                     
                 <p class="info">Inspiring and Equipping Entrepreneurs to Lead</p>		
 				
 				<div class="two_third top-80">
 				ELEO is defined as the intersection between entrepreneurship and leadership. We want to meet you there. While being an entrepreneur is an innate skill, being a natural leader may not be. 
-				</br>
-				</br>
-				Most conferences for entrepreneurs in the Bay Area revolve around funding, getting noticed, and the X's and O's of running a company. We believe that at the core of every successful venture, is great leadership.
 				</div>
 				<div class="one_third last big-about-font top-80">
 				I do this because I love serving this community."
 				</div>
 				<div class="clear"></div>
-				
-				
-						
-			<div class="one_fourth">
-			<img src="images/roberto.jpg">
-			<h2 class="external-subtitles montserrat-font">ROBERTO ORTIZ</h2>
-			<span style="font-size:13px;">Co-founder & Creative Director</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
-
-			</div>
-			<div class="one_fourth">
-			<img src="images/jerry.jpg">
-			<h2 class="external-subtitles montserrat-font">JERRY SHEN</h2>
-			<span style="font-size:13px;">Co-founder & Coordinator</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/bignoggins"><b>@bignoggins</b></a></span>
-			</div>
-            <div class="one_fourth">
-            <img src="images/charlena.jpg">
-			<h2 class="external-subtitles montserrat-font">CHARLENA ORTIZ</h2>
-			<span style="font-size:13px;">Co-founder & Coordinator</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/charlenaortiz"><b>@charlenaortiz</b></a></span>
-			</div>
-			<div class="one_fourth last">
-			<img src="images/mike.jpg">
-			<h2 class="external-subtitles montserrat-font">MIKE LOUIE</h2>
-			<span style="font-size:13px;">Marketing Guru</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
-			</div>
-			<div class="clear"></div>
-			<div class="one_fourth">
-			<img src="images/lindsey.jpg">
-			<h2 class="external-subtitles montserrat-font">LINDSEY OH</h2>
-			<span style="font-size:13px;">Volunteer Coordinator</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
-			</div>	
-			<div class="one_fourth">
-			<img src="images/adrienne.jpg">
-			<h2 class="external-subtitles montserrat-font">ADRIENNE SHEN</h2>
-			<span style="font-size:13px;">ELEO MC</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
-			</div>
-            <div class="one_fourth">
-            <img src="images/mark.jpg">
-			<h2 class="external-subtitles montserrat-font">MARK MAO</h2>
-			<span style="font-size:13px;">Sponsorships</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
-			</div>
-			<div class="one_fourth last">
-			<img src="images/wandia.jpg">
-			<h2 class="external-subtitles montserrat-font">WANDIA CHIURI</h2>
-			<span style="font-size:13px;">Communications</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
-			</div>
-			<div class="clear"></div>		
-					</div>	
+				</div>
 					<div class="full_width">
 					<div class="about_slider_background">
 					<div class="testimonial_slider_holder slider_holder">
@@ -505,7 +463,77 @@
                 </div>                				
                 </div>                				
 		
-      
+<!--TEAM-->
+        <div id="team" class="clear about section block">
+        <div class="block content-960 center-relative"> 
+            <h2 class="section-title montserrat-font">THE CREW</h2>
+            <div class="title-separator"></div>                     
+                <p class="info">Inspiring and Equipping Entrepreneurs to Lead</p>       
+                
+                <div class="two_third top-80">
+                ELEO is defined as the intersection between entrepreneurship and leadership. We want to meet you there. While being an entrepreneur is an innate skill, being a natural leader may not be. 
+                </br>
+                </br>
+                Most conferences for entrepreneurs in the Bay Area revolve around funding, getting noticed, and the X's and O's of running a company. We believe that at the core of every successful venture, is great leadership.
+                </div>
+                <div class="one_third last big-about-font top-80">
+                I do this because I love serving this community."
+                </div>
+                <div class="clear"></div>
+                
+                
+                        
+            <div class="one_fourth">
+            <img src="images/roberto.jpg">
+            <h2 class="external-subtitles montserrat-font">ROBERTO ORTIZ</h2>
+            <span style="font-size:13px;">Co-founder & Creative Director</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
+
+            </div>
+            <div class="one_fourth">
+            <img src="images/jerry.jpg">
+            <h2 class="external-subtitles montserrat-font">JERRY SHEN</h2>
+            <span style="font-size:13px;">Co-founder & Coordinator</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/bignoggins"><b>@bignoggins</b></a></span>
+            </div>
+            <div class="one_fourth">
+            <img src="images/charlena.jpg">
+            <h2 class="external-subtitles montserrat-font">CHARLENA ORTIZ</h2>
+            <span style="font-size:13px;">Co-founder & Coordinator</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/charlenaortiz"><b>@charlenaortiz</b></a></span>
+            </div>
+            <div class="one_fourth last">
+            <img src="images/mike.jpg">
+            <h2 class="external-subtitles montserrat-font">MIKE LOUIE</h2>
+            <span style="font-size:13px;">Marketing Guru</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
+            </div>
+            <div class="clear"></div>
+            <div class="one_fourth">
+            <img src="images/lindsey.jpg">
+            <h2 class="external-subtitles montserrat-font">LINDSEY OH</h2>
+            <span style="font-size:13px;">Volunteer Coordinator</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
+            </div>  
+            <div class="one_fourth">
+            <img src="images/adrienne.jpg">
+            <h2 class="external-subtitles montserrat-font">ADRIENNE SHEN</h2>
+            <span style="font-size:13px;">ELEO MC</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
+            </div>
+            <div class="one_fourth">
+            <img src="images/mark.jpg">
+            <h2 class="external-subtitles montserrat-font">MARK MAO</h2>
+            <span style="font-size:13px;">Sponsorships</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
+            </div>
+            <div class="one_fourth last">
+            <img src="images/wandia.jpg">
+            <h2 class="external-subtitles montserrat-font">WANDIA CHIURI</h2>
+            <span style="font-size:13px;">Communications</br><a style="color:#4abd92; text-decoration:none;" href="https://twitter.com/robertoortiz"><b>@robertoortiz</b></a></span>
+            </div>
+            <div class="clear"></div>       
+                    </div>  
+                    
+                    </div>  
+                    
+                </div>
+                <div class="clear"></div>                   
+                </div>                              
+                </div>                      
 
 	  <!--FAQ-->
         <div id="faq" class="clear about section block">
@@ -564,6 +592,105 @@
         <script type="text/javascript" src="js/jquery.vticker-min.js"></script>
         <script type="text/javascript" src="php/scriptsData.php"></script>
         <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>		
-        <script type="text/javascript" src="js/main.js"></script>		
+        <script type="text/javascript" src="js/main.js"></script>	
+
+        <script src="js/classie.js"></script>
+        <script src="js/uiMorphingButton_fixed.js"></script>
+        <script>
+            (function() {   
+                var docElem = window.document.documentElement, didScroll, scrollPosition;
+
+                // trick to prevent scrolling when opening/closing button
+                function noScrollFn() {
+                    window.scrollTo( scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0 );
+                }
+
+                function noScroll() {
+                    window.removeEventListener( 'scroll', scrollHandler );
+                    window.addEventListener( 'scroll', noScrollFn );
+                }
+
+                function scrollFn() {
+                    window.addEventListener( 'scroll', scrollHandler );
+                }
+
+                function canScroll() {
+                    window.removeEventListener( 'scroll', noScrollFn );
+                    scrollFn();
+                }
+
+                function scrollHandler() {
+                    if( !didScroll ) {
+                        didScroll = true;
+                        setTimeout( function() { scrollPage(); }, 60 );
+                    }
+                };
+
+                function scrollPage() {
+                    scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
+                    didScroll = false;
+                };
+
+/*
+
+scrollFn();
+                 
+[].slice.call( document.querySelectorAll( '.morph-button' ) ).forEach( function( bttn ) {
+    new UIMorphingButton( bttn, {
+        closeEl : '.icon-close',
+        onBeforeOpen : function() {
+            noScroll();
+        },
+        onAfterOpen : function() {
+            canScroll();
+            classie.addClass( document.body, 'noscroll' );
+            classie.addClass( bttn, 'scroll' );
+        },
+        onBeforeClose : function() {
+            classie.removeClass( document.body, 'noscroll' );
+            classie.removeClass( bttn, 'scroll' );
+            noScroll();
+        },
+        onAfterClose : function() {
+            canScroll();
+        }
+    } );
+} );*/
+
+
+                scrollFn();
+                
+                var el = document.querySelector( '.morph-button' );
+                
+                new UIMorphingButton( el, {
+                    closeEl : '.icon-close',
+                    onBeforeOpen : function() {
+                        // don't allow to scroll
+                        noScroll();
+                    },
+                    onAfterOpen : function() {
+                        // can scroll again
+                        canScroll();
+                        // add class "noscroll" to body
+                        classie.addClass( document.body, 'noscroll' );
+                        // add scroll class to main el
+                        classie.addClass( el, 'scroll' );
+                    },
+                    onBeforeClose : function() {
+                        // remove class "noscroll" to body
+                        classie.removeClass( document.body, 'noscroll' );
+                        // remove scroll class from main el
+                        classie.removeClass( el, 'scroll' );
+                        // don't allow to scroll
+                        noScroll();
+                    },
+                    onAfterClose : function() {
+                        // can scroll again
+                        canScroll();
+                    }
+                } );
+            })();
+        </script>
+        	
     </body>
 </html>
