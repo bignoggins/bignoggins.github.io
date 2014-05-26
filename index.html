@@ -66,11 +66,26 @@
 		  <!--<h1 class="big-tittle montserrat-font top-30">BUILD <span style="font-weight:300">&</span> LEAD</h1>	-->
 		   <span style="margin-bottom: 60px; display: block;"><img src="images/logo.png"></span>
 		   <h2 class="top-30" style="font-size:30px; font-weight:100; color:white;">Inspiring and Equipping Entrepreneurs to Lead</h2>	
-		  <p class="info top-30">Saturday, July 26th | One-day Conference | San Jose, California</p>		   				  
-                
-           <div class="top-150">
-              <a href="#contact" class="button green slow-scroll">Register Today</a>
+		   <p class="info top-30">Saturday, July 26th | One-day Conference | San Jose, California</p>		   				  
+           <div class="top-150">   
+              <a target="_top" href="#eventbrite"  class="button green" rel="prettyPhoto">Register Today</a>
            </div>
+
+
+        <!--START OF EVENTBRITE TICKET PAGE HTML -->
+        
+        <div id="eventbrite" class="hide" style="width:100%; text-align:left; display:none" >
+            <iframe  src="https://www.eventbrite.com/tickets-external?eid=7644098705&ref=etckt" frameborder="0" height="260" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true">
+            </iframe>
+            <div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" >
+                <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets Online</a> 
+                <span style="color:#ddd;">through</span> 
+                <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a>
+            </div>
+        </div>
+
+        <!--END OF EVENTBRITE TICKET PAGE-->         
+
            
 				</center>
             </div>
@@ -564,6 +579,11 @@
         <script type="text/javascript" src="js/jquery.vticker-min.js"></script>
         <script type="text/javascript" src="php/scriptsData.php"></script>
         <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>		
-        <script type="text/javascript" src="js/main.js"></script>		
+        <script type="text/javascript" src="js/main.js"></script>	
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+               $("a[rel^='prettyPhoto']").prettyPhoto();
+            });
+        </script>	
     </body>
 </html>
