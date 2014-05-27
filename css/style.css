@@ -257,14 +257,14 @@ text-decoration: none;
 .work_item_text
 {
 position: relative;
-text-align: center;
+text-align: right;
 display: block;
 color: #fbfbfb;
 font-size: 24px;
 line-height: 30px;
 font-weight: 700;
 width: 90%;
-margin: 0 auto;
+margin: 100px auto 0;
 }
 #filters
 {
