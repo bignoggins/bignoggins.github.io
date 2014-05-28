@@ -13,7 +13,11 @@ body
 	background: url('../images/watsi-bg2.jpg') no-repeat top center;
 	background-size: cover;
 }
-
+.map {
+	background: url('../images/map.jpg') no-repeat top center;
+	background-size: cover;
+	height: 400px;
+}
 .title-tag {
 color: white;
 background: #4abd92;
