@@ -107,7 +107,13 @@ margin: 0 5px;
 }
 
 @media screen and (max-width: 423px) {
-
+.close-x {
+position: absolute;
+top: 0;
+border: none;
+right: 6px;
+width: 50px !important;
+}
 div.content-960
 { 
 	width: 90%;

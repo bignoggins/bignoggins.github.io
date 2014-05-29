@@ -10,13 +10,37 @@ body
 
 /* ---------------- CUSTOM --------------------*/
 #watsi {
-	background: url('../images/watsi-bg2.jpg') no-repeat top center;
+	background: url('../images/watsi-bg2.jpg') #181818 no-repeat top center;
 	background-size: cover;
+	overflow: auto;
 }
 .map {
 	background: url('../images/map.jpg') no-repeat top center;
 	background-size: cover;
 	height: 400px;
+}
+.tickets-button 
+{
+	background: #f2620e;
+	display: block;
+	color: white;
+	border: none;
+	text-align: center;
+	padding: 15px 40px;
+	cursor: pointer;
+	margin-bottom: 25px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.tickets-button:hover
+{
+	background: #fc9a22;
+}
+.close-x {
+	position: fixed;
+	top: 0;
+	border: none;
+	right: 0;
 }
 .title-tag {
 color: white;
@@ -820,15 +844,16 @@ margin-bottom: 37px;
 .pricing-holder
 {
 text-align: center;
-border: 1px solid #4abd92;
-border-radius: 10px;
+border-bottom: 2px solid #EBEBEB;
+border-radius: 10px 10px 0 0;
 position: relative;
 margin-bottom: 25px;
+background: white;
 }
 .pricing-header
 {
 color: white;
-background: #4abd92;
+background: #32414D;
 border-radius: 8px 8px 0 0px;
 padding: 15px 0;
 }
