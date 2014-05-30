@@ -302,7 +302,7 @@
 	top: 50%;
 	left: 50%;
 	width: 220px;
-	background-color: #fef0e3;
+	background-color: white;
 	-webkit-transition: height 0.3s, width 0.3s, -webkit-transform 0.3s;
 	transition: height 0.3s, width 0.3s, transform 0.3s;
 	-webkit-transform: translateX(-50%) translateY(-50%);
@@ -316,7 +316,7 @@
 	width: 100%;
 	height: 100%;
 	background-color: transparent;
-	color: #e75854;
+	color: #4abd92;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
@@ -327,12 +327,12 @@
 }
 
 .morph-button-inflow-2 .morph-content {
-	width: 260px;
+	width: 280px;
 	height: 200px;
 }
 
 .morph-button-inflow-2.open {
-	width: 260px;
+	width: 280px;
 }
 
 /* Morph Button Style: Sidebar */

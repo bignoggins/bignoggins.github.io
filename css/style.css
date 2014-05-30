@@ -36,6 +36,41 @@ body
 {
 	background: #fc9a22;
 }
+.team {
+	background: white;
+	overflow: visible;
+}
+.team-pic {
+	width: 40%;
+	display: block;
+	float: left;
+	margin-bottom: -10px;
+}
+.team-info{
+	padding: 13px 20px;
+	float: left;
+	display: block;
+	width: 60%;
+}
+.snippet{
+	font-size: 13px;
+line-height: 18px;
+display: block;
+font-weight: 500;
+margin: 5px 0
+}
+.team-learn-btn {
+	display: block;
+font-size: 0.7em;
+font-weight: 500;
+text-align: center;
+color: #4abd92;
+text-decoration: none;
+border-bottom: 1px solid #dddddd;
+}
+.team-learn-btn:hover {
+	background: white;
+}
 .close-x {
 	position: fixed;
 	top: 0;
@@ -600,7 +635,7 @@ ul#contact-form li #send-message
 }
 .footer-content
 {
-padding: 100px 0;
+padding: 0 0 70px 0;
 }
 .footer-content .title-separator
 {
@@ -647,7 +682,31 @@ max-width: none;
 width: 59px;
 height: 54px;
 display: inline-block;
-margin: 0 70px;
+margin: 0 40px;
+overflow: hidden;
+}
+
+
+.small-social
+{
+bottom: -8px;
+height: 25px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+position: relative;
+}
+.small-social a img
+{
+display: block;
+max-height: none;
+max-width: none;
+}
+.small-social a
+{
+width: 25px;
+height: 25px;
+display: inline-block;
 overflow: hidden;
 }
 

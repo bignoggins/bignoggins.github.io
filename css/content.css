@@ -386,13 +386,14 @@
 .content-style-social a {
 	display: block;
 	padding: 0.5em 0;
-	color: #67c2d4;
+	color: #32414D;
 	vertical-align: middle;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
 	font-size: 0.8em;
 	line-height: 32px;
+	width: 260px;
 }
 
 .js .content-style-social a {
@@ -403,11 +404,11 @@
 }
 
 .content-style-social a:hover {
-	color: #e75854;
+	color: #4abd92;
 }
 
 .content-style-social a:hover svg path {
-	fill: #e75854;
+	fill: #4abd92;
 }
 
 .content-style-social a svg {
@@ -415,6 +416,7 @@
 	padding-right: 10px;
 	vertical-align: middle;
 	-webkit-backface-visibility: hidden;
+	color:#32414D;
 }
 
 .morph-button-inflow.open .content-style-social a {
