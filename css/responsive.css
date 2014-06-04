@@ -107,6 +107,9 @@ margin: 0 5px;
 }
 
 @media screen and (max-width: 423px) {
+.team {
+	overflow: auto;
+}
 .close-x {
 position: absolute;
 top: 0;
