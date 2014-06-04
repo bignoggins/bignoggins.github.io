@@ -19,6 +19,14 @@ body
 	background-size: cover;
 	height: 400px;
 }
+.year {
+	font-family: 'Montserrat', sans-serif, Arial;
+font-weight: 300;
+margin: 20px 0 0px 14px;
+display: inline-block;
+float: left;
+color: #4abd92;
+}
 .tickets-button 
 {
 	background: #f2620e;
@@ -179,12 +187,13 @@ div.main-menu .menu-holder a
 	letter-spacing: 0;
 	text-decoration: none;
 	display: block;	
-	margin: 22px 10px 15px 10px;
+	margin: 0 10px 0 10px;
 	color: white;
+	padding: 19px 0 15px;
 }
 div.main-menu .menu-holder li.active a, div.main-menu .menu-holder li a:hover
 { 
-border-top: 3px solid white;
+border-bottom: 3px solid #4abd92;
 }
 /*END MENU*/
 
