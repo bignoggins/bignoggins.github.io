@@ -110,6 +110,11 @@ margin: 0 5px;
 .team {
 	overflow: auto;
 }
+.watsi-logo { 
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
 .close-x {
 position: absolute;
 top: 0;
